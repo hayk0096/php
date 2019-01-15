@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #f1f1f1 url("/public/images/bg_images/site_bg_img.jpg") no-repeat center fixed;
+    background-size: 100%;
+}
+ul li a {
+    color: white;
+}
+#wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+.menu{
+    width: 100%;
+    background-color: #00fff3;
+    height: 50px;
+    float: right;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+    margin:5px 10px ;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.content{
+    width: 100%;
+    min-height: 650px;
+    background-color: #e6e6e6;
+}
+
+.footer{
+    width: 100%;
+    background-color: #585679;
+    height: 30px;
+}
+.phone_content {
+    margin-left: 1%;
+}
+.image_item{
+    width: 40%;
+    display: inline-block;
+    margin: 0 2.5%;
+    border: 2px solid #c1b6b6;
+    border-radius: 378px;
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 40px;
+}
+.image_item img{
+    border: none;
+}
+#price_item{
+    float: right;
+}
+#dialog{
+    position: relative;
+}
+.post{
+    width: 60%;
+}
+.addPhone a{
+   margin: 2%;
+}
+.ui-button{
+    margin: 2px;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border-radius: 7px ;
+    border-color: #4CAF50;
+    color: white;
+    margin: 0.1%;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+.ed_phone input {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.image_post {
+    width: 300px;
+    display: inline-block;
+    margin: 2%;
+}
+.image_description {
+    width: 38%;
+    display: inline-block;
+    float: right;
+    outline: 2px solid;
+    padding: 3%;
+}
+.edit_phone {
+    width: 2%;
+    cursor: pointer;
+    display: inline-block;
+}
+.comment_leg{
+    color: #0A0AFF;
+}
+.ui-dialog {
+    display: inline-block;
+    position: relative;
+    padding: 2em;
+    border: 2px solid lightblue;
+    background-color: white;
+    top: 480px;
+    left: 40%;
+}
+.ui-dialog-titlebar-close {
+    float: right;
+}
+#seasons{
+    width: 832px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.season {
+    width: 205px;
+    height: 125px;
+}
+.main{
+    width: 830px;
+}
+.edit_phone {
+    color: #4CAF50;
+}
+#demo{
+    color: blue;
+}
+#date{
+    color: blue;
+}
+body::-webkit-scrollbar{
+    width: 1em;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #585679;
+}
+.seasons_div{
+    width: 80%;
+    margin: 0 10%;
+}
